@@ -110,3 +110,134 @@ int main(){
 }
 ```
 
+- G
+
+  ```c++
+  #include <iostream>
+  
+  using namespace std ;
+  
+  int main(){
+      int n , sum=0;
+   	cout<< "enter number for summation : ";
+      cin >>n;
+      for(int i=1 ; i<=n ; i++){
+          sum += i ;
+      }
+      cout<< "the summion for number is "<<
+      
+      return 0;
+  }
+  ```
+
+  - H
+
+  ```c++
+  #include <iostream>
+  #include <cmath>
+  using namespace std;
+  int main() {
+      double a, b;
+  	cout << "enter number a : ";
+      cin >>a;
+      cout <<endl<< "enter number b : ";
+      cin >>b;
+      
+  
+      double floorResult = floor(a / b);
+      double ceilResult = ceil(a / b);
+      double roundResult = round(a / b);
+  
+      cout << "Floor of A/B: " << floorResult << endl;
+      cout << "Ceil of A/B: " << ceilResult << endl;
+      cout << "Round of A/B: " << roundResult << endl;
+  
+      return 0;
+  }
+  ```
+
+  - I
+
+  ```c++
+  #include <iostream>
+  using namespace std;
+  int main() {
+      double a, b;
+  	cout << "enter number a : ";
+      cin >>a;
+      cout <<endl<< "enter number b : ";
+      cin >>b;
+     
+      if (a >= b){
+          cout << "Yes";
+      }
+      else 
+          cout << "No";
+      return 0;
+  }
+  ```
+
+  
+
+- J
+
+```c++
+#include <iostream>
+using namespace std;
+int main() {
+     int a, b;
+	cout << "enter number a : ";
+    cin >>a;
+    cout <<endl<< "enter number b : ";
+    cin >>b;
+    if (a % b ==0 || b % a ==0){
+	cout << " Multiples " << endl ;
+    }
+    else 
+        	cout << "No Multiples " << endl ;
+    
+    return 0;
+}
+```
+
+- K
+
+```c++
+#include <iostream>
+using namespace std;
+int main() {
+     int a, b,c , max , min;
+	cout << "enter number three number : ";
+    cin >>a>>b>>c;
+   if(a > b and a > c){
+        max = a;
+       if(b > c ){
+           min = c;
+       }
+       else 
+           min = b;
+   }
+    else if(b > c and b > a){
+        max = b;
+       if(a > c ){
+           min = c;
+       }
+       else 
+           min = a;
+   }
+    else {
+        max =c ;
+        if (a > b)
+            min = b; 
+        else 
+            min = a; 
+        
+    }
+    cout << "the max number is " << max << endl;
+    cout << "the min number is " << min;
+     
+    
+    return 0;
+}
+```
+
