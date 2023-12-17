@@ -241,3 +241,31 @@ int main() {
 }
 ```
 
+- L
+
+```c++
+
+#include <iostream>
+
+// #include <cstring>
+using namespace std;
+int main() {
+ 	 string firstnaame1  ;
+ 	 string firstnaame2  ;
+ 	 string  scuandname1 ;
+ 	 string  scuandname2 ;
+ 	 cout<<"enter your name bilateral : ";
+ 	 cin>>firstnaame1>>scuandname1;
+ 	 cout<<"enter name any bepol bilateral : ";
+ 	  	 cin>>firstnaame2>>scuandname2;
+ 	 if (scuandname1 == scuandname2){
+ 	     cout << "are brather ";
+ 	 }
+    else 
+       cout << "are not brather ";
+    return 0;
+}
+```
+
+- M
+
